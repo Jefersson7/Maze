@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
+  	<title>¿Cómo jugar?</title>
+</head>
+<!-- Para colocar la imagen de fondo de pantalla-->
+<body class="fondo">
+	<div>
+      <!-- Barra superior de Navegación-->
+    	<ul class="nav">
+      		<li class = "pincipal" ><a href="index.html">Principal</a></li>
+      		<li><a href="howto.html">¿Cómo jugar?</a></li>
+      		<li><a href="juego.html">Juego</a></li>
+      		<li><a href="creditos.html">Creditos</a></li>
+    	</ul>
+  	</div>
+    <!-- Barra lateral de navegación -->
+    <div class="barra">
+      <div class="titulobar">
+      Secciones
+      </div>
+   
+      <div class="cuerporec">
+        <ul>
+          <li><a href="#game">El juego</a></li>
+          <li><a href="#instrucciones">Instrucciones</a></li>
+          <li><a href="#fin">Fin del Juego</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Contenido de la página web -->
+  	<div class="contenido">
+	 <h1>¿Cómo jugar?</h1>
+     <!-- Secciones -->
+      <h2 id="game">El juego</h2>
+      <div class="figure2">
+      	<img src="img/mazeGame.png" alt="Juego del laberinto">
+        <p>El juego</p>
+      </div>
+      <h2 id="instrucciones">Istrucciones</h2>
+      	<p>Se debe transportar a la bola a la salida del laberinto, para ello cuenta con los siguientes controles:</p>
+      <!-- Selector figure2-->
+      <div class="figure2">
+        <img src="img/keyboard.jpg" alt="Controles del juego"/>
+        <p>Cotroles del juego</p>
+      </div>
+      <ul>
+      	<li>Al completar un laberinto, se generará otro nuevo para volver a iniciar. El tiempo límite del juego es de 3 minutos.</li>
+      	<li>Se pierde el juego si se cumple el tiempo límite de tres minutos</li>
+      	<li>Se gana el juego si se logran completar 10 laberintos antes del tiempo límite</li>
+	  </ul>
+
+      <h2 id="fin">Fin del juego</h2>
+      <p>Existen dos modos en que termina el juego, cuando el jugador pierde:</p>
+      <div class="figure2">
+        <img src="img/lose.png" alt="El jugador perdió"/>
+        <p>Perdió el Juego</p>
+      </div>
+      <p>Y cuando el jugador gana:</p>
+      <div class="figure2">
+      	<img src="img/win.png" alt="El jugador ganó"/>
+        <p>Ganó el juego</p>
+      </div>
+    </div>
+</body>
+</html>
